@@ -4,17 +4,26 @@ public class App {
 
 	public static void main(String[] args) {
 
-		Logger log = new AsteriskLogger();
-		log.log("Hello");
+		Logger astericklog = new AsteriskLogger();
+		astericklog.log("Hello");
 
-System.out.println("------------------------------------------------");		
 		
 		Logger error = new AsteriskLogger();
-		error.error("Hello");
+		error.error("Fred");
+			
 
-System.out.println("------------------------------------------------");		
-
+		Logger spacedlog = new SpacedLogger();
+		spacedlog.log("Steven");
 		
+		
+		
+
+//		print line in the above printout is missing the ln so it prints across
+//		the blank print line below is so that it goes back to printing vertical
+//System.out.println("");
+
+
+
 	}
 
 }

@@ -27,25 +27,22 @@ public class week05assignment {
 //		****************
 //		***Error: Hello***
 //		****************
-//					-DONE - is this correct????
 		
-		
+				-DONE
 		
 		
 //	6)	The SpacedLogger should add spaces between each character of the String argument passed into its methods.
-//
+//				-DONE
 //	7)	If the log method received “Hello” as an argument, it should print H e l l o
-//
+//				-DONE
 //	8)	The error method should do the same, but with “ERROR:” preceding the spaced out input (i.e. ERROR: H e l l o)
 //
 //	9)	Create a class named App that has a main method.
-//					-DONE
-//		
+//				-DONE
 //	10)	In this class instantiate an instance of each of your logger classes that implement the Logger interface.
 //
 //	11)	Test both methods on both instances, passing in Strings of your choice.
 	
-
 	}
 }
 
