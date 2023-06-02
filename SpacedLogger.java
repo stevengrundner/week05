@@ -15,8 +15,10 @@ public class SpacedLogger implements Logger {
 //}
 	
 	@Override
-	public void error(String error) {
-		
+	public void error(String spacederror) {
+		System.out.println("Error");
+		System.out.println("***" + "ERROR: " + spacederror + "***");
+
 	}
 	
 

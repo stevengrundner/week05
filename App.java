@@ -7,14 +7,23 @@ public class App {
 		Logger astericklog = new AsteriskLogger();
 		astericklog.log("Hello");
 
-		
+	System.out.println("-----------------------------------");	
+	
 		Logger error = new AsteriskLogger();
-		error.error("Fred");
+		error.error("Hello");
 			
+		System.out.println("-----------------------------------");	
 
 		Logger spacedlog = new SpacedLogger();
-		spacedlog.log("Steven");
+		spacedlog.log("Hello");
+	
+		System.out.println("");	
+		System.out.println("-----------------------------------");	
+
+		System.out.print("ERROR: ");
 		
+		Logger spacederror = new SpacedLogger();
+		spacederror.log("Hello");
 		
 		
 
