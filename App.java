@@ -5,17 +5,17 @@ public class App {
 	public static void main(String[] args) {
 
 		Logger astericklog = new AsteriskLogger();
-		astericklog.log("Hello");
+		astericklog.log("Steven");
 
 	System.out.println("-----------------------------------");	
 	
 		Logger error = new AsteriskLogger();
-		error.error("Hello");
+		error.error("Steven");
 			
 		System.out.println("-----------------------------------");	
 
 		Logger spacedlog = new SpacedLogger();
-		spacedlog.log("Hello");
+		spacedlog.log("Steven");
 	
 		System.out.println("");	
 		System.out.println("-----------------------------------");	
@@ -23,7 +23,7 @@ public class App {
 		System.out.print("ERROR: ");
 		
 		Logger spacederror = new SpacedLogger();
-		spacederror.log("Hello");
+		spacederror.log("Steven");
 		
 		
 
